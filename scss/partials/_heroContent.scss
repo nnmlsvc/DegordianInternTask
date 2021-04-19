@@ -1,0 +1,113 @@
+.main-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    display: block;
+    width: 720px;
+    color: $white;
+    font-size: 48px;
+    font-weight: normal;
+    margin-bottom: 118.5px;
+  }
+
+  .form {
+    form {
+      display: flex;
+
+      input {
+        font-size: 16.2px;
+        padding: 19px 23px 15px 18px;
+      }
+
+      .search-bar {
+        position: relative;
+        margin-right: 7px;
+
+        .search-query {
+          width: 436px;
+          height: 56px;
+          border-radius: 3.5px;
+          border-color: transparent;
+        }
+
+        input:focus {
+          outline: 0;
+        }
+
+        img {
+          position: absolute;
+          top: 25%;
+          right: 23px;
+        }
+      }
+
+      .dropdown {
+        margin-right: 8px;
+        position: relative;
+
+
+        .chosen-select {
+          width: 218px;
+          height: 56px;
+          border-radius: 3.5px;
+          border: 0;
+
+          &::-webkit-calendar-picker-indicator {
+            display: none;
+          }
+
+          &:focus {
+            outline: 0;
+          }
+
+        }
+        img {
+          position: absolute;
+          right: 8px;
+          top: 45%;
+
+        }
+      }
+
+      .btn {
+        width: 176px;
+        height: 56px;
+        padding: 18px 20px 16px 29px;
+        border-radius: 4.7px;
+        background-color: $green;
+        color: $white;
+        font-size: 16.2px;
+        font-weight: 500;
+        font-family: $monserrat;
+        position: relative;
+        border: 0;
+        cursor: pointer;
+
+        &:focus {
+          outline: 0;
+        }
+        &:hover{
+          background-color: transparent;
+          border: 1px solid $green;
+        }
+
+        img {
+          width: 22px;
+          position: absolute;
+          left: 29px;
+          top: 30%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: $monserrat;
+  color: $white;
+  .container {
+    width: 861px;
+  }
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: $white;
+  }
+}

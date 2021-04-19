@@ -1,0 +1,56 @@
+.main-section {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/section-img-1x.png");
+
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin-bottom: 97px;
+
+  .section-holder {
+    background: rgba(24, 37, 69, 0.89);
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+
+    h2 {
+      color: $white;
+      font-size: 38px;
+      font-weight: normal;
+      margin-bottom: 28px;
+    }
+
+    p {
+      color: $white;
+      line-height: 1.5;
+      font-size: 21px;
+      margin-bottom: 45px;
+      font-family: $openSans;
+      font-weight: 300;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: $green;
+      width: 290px;
+      height: 60px;
+      padding: 18px 32px;
+      border-radius: 30px;
+      text-align: center;
+      align-items: center;
+      font-size: 18px;
+      text-decoration: none;
+      color: $white;
+      &:hover{
+        background-color: transparent;
+        outline: 1px solid $green;
+      }
+    }
+  }
+}

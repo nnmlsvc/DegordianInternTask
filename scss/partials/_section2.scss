@@ -1,0 +1,63 @@
+.section-2 {
+
+  .section2-holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 120px 90px;
+
+    .col {
+    width: 540px;
+
+      h2 {
+        font-size: 36px;
+        color: $grey;
+        margin-bottom: 20px;
+        font-weight: normal;
+      }
+
+      p {
+        margin-bottom: 30px;
+      }
+
+      .second-headline {
+        font-size: 20px;
+        color: $lightgrey;
+        font-weight: normal;
+      }
+
+      .section-text {
+        font-family: $openSans;
+        font-size: 18px;
+        font-weight: 300;
+        color: $grey;
+        line-height: 1.5;
+      }
+
+      .btn {
+        display: inline-block;
+        background-color: $darkblue;
+        width: 290px;
+        height: 60px;
+        padding: 18px 32px;
+        border-radius: 30px;
+        text-align: center;
+        align-items: center;
+        font-size: 18px;
+        font-weight: normal;
+        text-decoration: none;
+        color: $white;
+        &:hover{
+          background-color: transparent;
+          border: 1px solid $darkblue;
+          color: $darkblue;
+        }
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
